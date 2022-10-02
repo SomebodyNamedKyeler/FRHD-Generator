@@ -457,3 +457,4 @@ function boldmode2XXX() {
   h2.innerHTML = 'Bold Mode : Off';
   setTimeout(h2def,500);
 }
+
