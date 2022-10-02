@@ -1,0 +1,149 @@
+* {
+  font-size:30px;
+  font-family:times new roman;
+}
+*::selection {
+  background-color:rgb(10,10,10);
+  color:rgb(200,200,200);
+}
+body {
+  background:url(http://www.amazingwallpaperz.com/wp-content/uploads/Black-Plain-Widescreen-HD-Wallpaper.jpg) no-repeat center center fixed;
+  background-size:100% 100%;
+  margin:0;
+  overflow:hidden;
+  color:white;
+  cursor:default;
+  user-select:none;
+  -webkit-user-select:none;
+}
+canvas {
+  background-color:white;
+  cursor:default;
+  width:600px;
+  height:600px;
+}
+div[id=contain] {
+  position:absolute;
+  width:600px;
+  height:600px;
+  background-color:rgb(20,20,20);
+  display:inline-block;
+}
+textarea[id=output] {
+  resize:none;
+  position:absolute;
+  width:99%;
+  height:50%;
+  bottom:0;
+  left:0;
+  font-size:30px;
+  border:none;
+  background-color:rgb(200,200,200);
+  font-family:monospace;
+}
+textarea[id=output]:focus {
+  outline:none;
+  border:none;
+}
+input:focus {
+  outline:none;
+  cursor:pointer;
+}
+input[id=run],input[id=copycode] {
+  background-color:rgb(200,200,200);
+  width:49.3%;
+  cursor:pointer;
+  border:solid 2px black;
+  margin-bottom:10px;
+  margin-top:10px;
+  font-family:arial black;
+}
+input[id=run]:hover,input[id=copycode]:hover {
+  background-color:gray;
+}
+input[id=downhill],input[id=climb],input[id=flat],input[id=custom] {
+  width:200px;
+  background-color:rgb(200,200,200);
+  border:solid 2px black;
+  font-family:times new roman black;
+  cursor:default;
+}
+input[id=custom] {
+  position:absolute;
+  left:200px;
+}
+div[id=header] {
+  background-color:rgb(10,10,10);
+  width:inherit;
+  position:absolute;
+  top:0;
+  height:90px;
+}
+h1 {
+  text-align:center;
+  margin-bottom:0;
+  margin-top:15px;
+  color:rgb(200,200,200);
+}
+h2 {
+  font-size:20px;
+  text-align:center;
+  margin-top:0;
+  color:rgb(200,200,200);
+}
+div[id=form] {
+  background-color:rgb(20,20,20);
+  height:250px;
+  width:inherit;
+  position:absolute;
+  top:90px;
+  font-family:times new roman black;
+}
+div[id=button] {
+  background-color:rgb(10,10,10);
+  position:absolute;
+  bottom:5px;
+  width:600px;
+  height:105px;
+}
+input[type=number] {
+  width:95px;
+  border:solid 2px black;
+  background-color:rgb(200,200,200);
+  cursor:auto;
+  position:absolute;
+  display:inline-block;
+  text-align:center;
+  font-family:times new roman black;
+}
+input[type=number]:hover {
+  background-color:grey;
+}
+input[id=lineinput] {
+  right:98px;
+}
+input[id=shadeinput] {
+  right:0;
+}
+input[id=minX],input[id=maxX] {
+  top:0;
+  display:none;
+}
+input[id=minY],input[id=maxY] {
+  top:46.5px;
+  display:none;
+}
+input[id=minX],input[id=minY] {
+  right:98px;
+}
+input[id=maxX],input[id=maxY] {
+  right:0;
+}
+span[id=link] {
+  font-size:20px;
+  font-weight:bold;
+  cursor:pointer;
+}
+span[id=link]:hover {
+  color:rgb(100,100,100);
+}
