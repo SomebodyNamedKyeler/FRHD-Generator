@@ -1,0 +1,25 @@
+<canvas></canvas>
+<div id=contain>
+  <div id=header>
+  <h1 id=h1>FRHD Track Generator</h1>
+    <h2 id=h2> I can tell <span id=link> you got this from GitHub</span></h2>
+  </div>
+  <div id=form>
+<input type=button id=downhill value=Downhill><br>
+  <input type=button id=climb value=Climb><br>
+    <input type=button id=flat value=Offroad>
+    <input type=number id=minX value=10 min=0 max=200 step=10>
+    <input type=number id=maxX value=100 max=200 min=10 step=10>
+    <input type=number id=minY value=-100 min=-200 max=200 step=10>
+    <input type=number id=maxY value=50 max=200 min=-200 step=10>
+    <input type=button id=custom value=Custom>
+      <input type=number id=lineinput value=100 min=10 max=2000 step=10>
+    <input type=number id=shadeinput value=10 min=0 max=100 step=2>
+    <div id=button>
+<input type=button id=run value='Run'>
+  <input type=button id=copycode value='Copy Code'>
+    </div>
+  </div>
+<br>
+<textarea id=output cols=auto rows=auto readonly></textarea>
+</div>
