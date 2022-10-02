@@ -2,7 +2,7 @@
 <div id=contain>
   <div id=header>
   <h1 id=h1>FRHD Track Generator</h1>
-    <h2 id=h2>I can tell <span id=link>you got this from GitHub</span></h2>
+    <h2 id=h2> I can tell <span id=link> you got this from GitHub</span></h2>
   </div>
   <div id=form>
 <input type=button id=downhill value=Downhill><br>
